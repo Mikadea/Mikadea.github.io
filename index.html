@@ -50,9 +50,8 @@
         <form>
             <input type="search" placeholder="Search by Address or Area" class="text-search">
         </form>
-        <a href="#" class="booker">Book an Appointment</a>
+        <a href="#contact" class="booker">Book an Appointment</a>
         <i class="fa-solid fa-arrow-right right-arrow"></i>
-        <i class="fa-solid fa-bars hamburger"></i>
     </div>
 
     <div class="marketingplan w-full vh-100">
@@ -346,5 +345,58 @@
             </form>
         </div>
     </div>
+
+    <div class="footer">
+        <p class="footer-header-1">ADDRESS</p>
+        <p class="footer-header-2">CONTACT INFORMATION</p>
+        <p class="footer-body-1">
+            4733 Chabot Drive #100<br>
+            Pleasanton, CA 94588
+        </p>
+        <p class="footer-body-2">
+            (925) 553-6707<br>
+            luxuryhomesinwc@icloud.com
+        </p>
+        <img src="./assets/img/eho.png" class="footer-img-1">
+        <img src="./assets/img/realtor.png" class="footer-img-2">
+        <img src="./assets/img/jhsereno-dark.png" class="footer-img-3">
+        <a href="#">
+            <i class="fa-brands fa-facebook facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/julie-hansen-orvis-10b99359/">
+            <i class="fa-brands fa-linkedin linkedin"></i>
+        </a>
+
+        <p class="copyright-1">
+            Website Designed & Developed by <a href="https://www.luxurypresence.com/"><u>Luxury Presence</u></a>
+        </p>
+        <p class="copyright-2">
+            Copyright 2024 | Privacy Policy
+        </p>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h1 class="contactus">Contact Us</h1>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" class="name" id="name" name="name" required>
+                <input type="tel" id="phone" name="phone" class="tel" placeholder="Phone" required>
+                <input type="email" placeholder="Email" class="email" id="email" name="email" required>
+                <textarea placeholder="Message" class="message" id="message" name="message" required></textarea>
+                <input type="checkbox" class="checkbox">
+                <p class="checkbox-text">
+By providing Julie Hansen Partnership your contact information, you acknowledge and agree to our Privacy Policy and consent to<br>
+receiving marketing communications, including through automated calls, texts, and emails, some of which may use artificial or<br>
+prerecorded voices. This consent isn’t necessary for purchasing any products or services and you may opt out at any time.<br>
+To opt out from texts, you can reply, ‘stop’ at any time. To opt out from emails, you can click on the unsubscribe link<br>
+in the emails. Message and data rates may apply.
+                </p>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./web/js/index.js"></script>
 </body>
 </html>
