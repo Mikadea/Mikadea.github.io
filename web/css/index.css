@@ -92,6 +92,6 @@ body{
     }
 
     .intro-paragraph{
-        width: 100px;
+        width: 0;
     }
 }
