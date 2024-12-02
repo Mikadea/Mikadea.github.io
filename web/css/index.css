@@ -90,4 +90,8 @@ body{
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .intro-paragraph{
+        width: 100px;
+    }
 }
