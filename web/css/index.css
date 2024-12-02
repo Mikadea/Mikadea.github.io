@@ -93,10 +93,12 @@ body{
     }
 
     .intro-paragraph{
+        left: 25px;
         width: 75%;
     }
 
     .intro-name{
+        left: 25px;
         width: 75%;
     }
 }
