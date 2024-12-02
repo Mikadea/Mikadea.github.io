@@ -94,4 +94,8 @@ body{
     .intro-paragraph{
         width: 75%;
     }
+    
+    .intro-name{
+        width: 75%;
+    }
 }
