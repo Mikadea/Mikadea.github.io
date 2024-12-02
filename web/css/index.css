@@ -29,6 +29,10 @@ body{
     background-color: #424242;
 }
 
+.intro-paragraph{
+    font-size: 4rem;
+}
+
 @media (min-width: 320px) and (max-width: 420px){
     .header-list li{
         width: calc(33.33vw);
