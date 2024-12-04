@@ -31,7 +31,29 @@ body{
     background-color: #424242;
 }
 
+.main-blob-1{
+    position: absolute;
+    right: 10%;
+    top: 200px;
 
+    height: 60vh;
+    width: auto;
+
+
+    //Animation
+    opacity: 0;
+    animation: fadeInFromRight 1s forwards;
+}
+
+.main-image-1{
+    position: absolute;
+    right: 7%;
+    top: 50px;
+
+    //Animation
+    opacity: 0;
+    animation: fadeInFromRight 1s forwards;
+}
 
 .intro-paragraph{
     position: relative;
@@ -40,7 +62,7 @@ body{
     font-face: Arial;
     font-size: 3rem;
     top: 125px;
-    left: 50px;
+    left: 150px;
 
     //Animation
     opacity: 0;
@@ -48,14 +70,19 @@ body{
     animation: fadeInFromLeft 1s forwards;
 }
 
+.intro-button{
+    position: relative;
+    left: 150px;
+}
+
 .intro-name{
     margin: 0;
     padding: 0;
     position: relative;
     top: 123px;
-    left: 50px;
+    left: 150px;
     font-size: 3em;
-    width: 400px;
+    width: 450px;
     color: #7ED348;
 
     //animation
@@ -75,7 +102,18 @@ body{
     }
 }
 
-@media (min-width: 320px) and (max-width: 420px){
+@keyframes fadeInFromRight {
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 420px){
     .header-list{
         width: 100%;
         display: flex;
@@ -95,12 +133,47 @@ body{
     }
 
     .intro-paragraph{
+        top: 13%;
         left: 25px;
         width: 75%;
+    }
+
+    .intro-container{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .intro-image{
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
     }
 
     .intro-name{
         left: 25px;
         width: 75%;
+        top: 13.5%;
+    }
+
+    .intro-button{
+        left: 25px;
+        top: 18%;
+        height: 50px;
+        font-face: Arial;
+        width: calc(72.43vw);
+        border-radius: 15px;
+        background-color: #7FD349;
+        font-size: 1.5em;
+    }
+
+    .main-image-1{
+        position: relative;
+        top: 0px;
+        left: 0.042%;
+    }
+
+    .main-blob-1{
+        left: 7.5px;
     }
 }
